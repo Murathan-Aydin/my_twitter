@@ -1,0 +1,10 @@
+{
+    "tailwindCSS.includeLanguages": {
+        "javascript": "javascript",
+        "html": "html",
+        "nextjs": "javascript",
+        "react": "javascript",
+        "php": "html",
+        "plaintext": "html"
+    }
+}
