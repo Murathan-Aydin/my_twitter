@@ -3,7 +3,7 @@ export async function uploadMedia(file: any) {
 
     formData.append("image", file);
 
-    const response = await fetch(`http://198.244.233.0/api/upload.php`, {
+    const response = await fetch(`http://${process.env.DB_HOST}/api/upload.php`, {
         method: "POST",
         body: formData,
     });
